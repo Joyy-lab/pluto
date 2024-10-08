@@ -18,4 +18,7 @@ c.NotebookApp.notebook_dir = "/data/home/your/username" #改成自己的家目�
 ```
 jupyter notebook --config /data/home/your/username/.jupyter/jupyter_notebook_config.py --allow-root
 ```
-
+## 202410计划
+1. 高分辨率模拟（Nr~1000）
+2. M81\*参数，参考Shi et al. 2024
+3. 尝试引入辐射冷却（tabulated cooling, 参考pluto user guide）
