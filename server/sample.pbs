@@ -1,0 +1,12 @@
+#!/bin/sh
+#PBS -N workname 
+#PBS -l nodes=1:ppn=48
+#PBS -o RunJob.out
+#PBS -e RunJob.err 
+#PBS -V
+
+cd $PBS_O_WORKDIR 
+NP=`cat $PBS_NODEFILE | wc -l`
+
+mpirun -genv I_MPI_FABRIC tmi:shm -machinefile $PBS_NODEFILE -n $NP ./pluto
+
