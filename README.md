@@ -22,3 +22,7 @@ jupyter notebook --config /data/home/your/username/.jupyter/jupyter_notebook_con
 1. 高分辨率模拟（Nr~1000）
 2. M81\*参数，参考Shi et al. 2024 (r0\~0.1pc, r1\~30pc, t\~20000yr)
 3. 尝试引入辐射冷却（tabulated cooling, 参考pluto user guide）
+
+## 202420计划
+1. 介质密度1E4,考虑和不考虑冷却的区别
+2. 考虑团块化的核周介质，随机的高密度团块或者lognormal的密度分布
