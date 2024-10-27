@@ -155,7 +155,7 @@ void UserDefBoundary (const Data *d, RBox * box, int side, Grid *grid)
     X1_BEG_LOOP(k,j,i){
       r = x1[i];
       d->Vc[RHO][k][j][i] = 1.7e5*0.62/(r/0.01)/(r/0.01);
-      d->Vc[PRS][k][j][i] = 34.7*pow(r/0.01, -1.28)*1.16e7/(KELVIN*0.62);
+      d->Vc[PRS][k][j][i] = d->Vc[RHO][k][j][i]*34.7*pow(r/0.01, -1.28)*1.16e7/(KELVIN*0.62);
 
       d->Vc[VX1][k][j][i] = 3.0;
       d->Vc[VX2][k][j][i] = 0.0;

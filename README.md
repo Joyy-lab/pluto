@@ -23,6 +23,10 @@ jupyter notebook --config /data/home/your/username/.jupyter/jupyter_notebook_con
 2. M81\*参数，参考Shi et al. 2024 (r0\~0.1pc, r1\~30pc, t\~20000yr)
 3. 尝试引入辐射冷却（tabulated cooling, 参考pluto user guide）
 
-## 202420计划
+## 20241020计划
 1. 介质密度1E4,考虑和不考虑冷却的区别
 2. 考虑团块化的核周介质，随机的高密度团块或者lognormal的密度分布
+
+## 20241027计划
+1. 高密度介质限制在1pc以内，1pc外设置0.1mp/cm3的密度。使高密度介质质量在1000太阳质量左右。
+2. 考察团块化的介质的设置，参考Ward et al. 2024以及Banda-Barragan et al (doi: 10.1093/mnras/staa2904). 2020.
