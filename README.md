@@ -30,3 +30,7 @@ jupyter notebook --config /data/home/your/username/.jupyter/jupyter_notebook_con
 ## 20241027计划
 1. 高密度介质限制在1pc以内，1pc外设置0.1mp/cm3的密度。使高密度介质质量在1000太阳质量左右。
 2. 考察团块化的介质的设置，参考Ward et al. 2024以及Banda-Barragan et al (doi: 10.1093/mnras/staa2904). 2020.
+
+## 20241119计划
+1. 考虑与不考虑团块的模拟
+2. 计算X射线光度，计算辐射平均的温度和速度
