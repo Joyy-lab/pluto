@@ -34,3 +34,8 @@ jupyter notebook --config /data/home/your/username/.jupyter/jupyter_notebook_con
 ## 20241119计划
 1. 考虑与不考虑团块的模拟
 2. 计算X射线光度，计算辐射平均的温度和速度
+
+## 20241129计划
+1. g_minCoolingTemp设到50000 K。介质和团块的密度考虑1E4和1E5左右，团块质量比可以约为1/10。
+2. 添加对clump的tracer。definitions.h中将NTRACER改至2，在init.c中添加对TRC+1的定义。
+3. 考察使用[pyfc](https://pypi.org/project/pyFC/)生成clumpy的密度场，参考[Ward et al. 2024](https://arxiv.org/abs/2407.17593)以及[Banda-Barragan et al](https://ui.adsabs.harvard.edu/abs/2020MNRAS.499.2173B)
